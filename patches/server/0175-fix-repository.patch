@@ -1,0 +1,27 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: devil38 <itznya10@gmail.com>
+Date: Wed, 12 Feb 2025 02:09:02 +0200
+Subject: [PATCH] fix-repository
+
+
+diff --git a/pom.xml b/pom.xml
+index f6ed279354c90e6daf631717f7ad2d63a87bcbc0..64d3a260c73f6e9175f800ae86fabe50c7bf050d 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -178,14 +178,14 @@
+         <repository>
+             <!-- Paper start - update log4j -->
+             <id>paper</id>
+-            <url>https://papermc.io/repo/repository/maven-public/</url>
++            <url>https://repo.papermc.io/repository/maven-public/</url>
+         </repository>
+     </repositories>
+ 
+     <pluginRepositories>
+         <pluginRepository>
+             <id>paper</id>
+-            <url>https://papermc.io/repo/repository/maven-public/</url>
++            <url>https://repo.papermc.io/repository/maven-public/</url>
+             <!-- paper end - update log4j -->
+         </pluginRepository>
+     </pluginRepositories>
